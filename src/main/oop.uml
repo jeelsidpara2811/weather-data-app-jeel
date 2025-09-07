@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/jeels/IdeaProjects/psta_sidpjeel/psta-src/src/main/java/th/rosenheim/oop</OriginalElement>
+  <nodes>
+    <node x="-381.25" y="-68.71780392156862">th.rosenheim.oop.Big_Cities</node>
+    <node x="-66.64611764705887" y="-68.71780392156862">th.rosenheim.oop.Website_Generator</node>
+    <node x="-328.75" y="190.35607843137257">th.rosenheim.oop.App</node>
+    <node x="-299.5" y="-385.0">th.rosenheim.oop.Abstract_Cities</node>
+    <node x="-621.8538823529411" y="-68.71780392156862">th.rosenheim.oop.Small_Cities</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="th.rosenheim.oop.App" target="th.rosenheim.oop.Website_Generator" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-244.75" y="118.74175686274515" />
+      <point x="76.35388235294113" y="118.74175686274515" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="th.rosenheim.oop.Small_Cities" target="th.rosenheim.oop.Abstract_Cities" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="-522.3538823529411" y="-100.0" />
+      <point x="-244.75" y="-100.0" />
+      <point x="-54.75" y="105.0" />
+    </edge>
+    <edge source="th.rosenheim.oop.Big_Cities" target="th.rosenheim.oop.Abstract_Cities" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="-54.75" y="105.0" />
+    </edge>
+    <edge source="th.rosenheim.oop.Website_Generator" target="th.rosenheim.oop.Abstract_Cities" relationship="TO_MANY">
+      <point x="0.0" y="-80.5" />
+      <point x="76.35388235294113" y="-100.0" />
+      <point x="-135.25" y="-100.0" />
+      <point x="54.75" y="105.0" />
+    </edge>
+    <edge source="th.rosenheim.oop.App" target="th.rosenheim.oop.Small_Cities" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-244.75" y="118.74175686274515" />
+      <point x="-522.3538823529411" y="118.74175686274515" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="th.rosenheim.oop.App" target="th.rosenheim.oop.Big_Cities" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.2015606151990352" showDependencies="true" x="-142.79118431372558" y="-96.28304313725494" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
