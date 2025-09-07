@@ -1,6 +1,21 @@
-/bin/
+# Gradle
+.gradle/
+build/
+
+# IntelliJ / VS Code
 .idea/
 .vscode/
 *.iml
+out/
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Java
+*.class
+*.log
+
+# Outputs (keep folder, ignore files)
+outputs/*
+!outputs/.gitkeep

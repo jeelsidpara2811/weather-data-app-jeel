@@ -1,12 +1,8 @@
 # Weather Cities Website Generator (Java)
 
-Generates a simple multi-page **static website** (HTML files) for cities.  
-You add cities (small or big with districts), and the app creates:
-- `index.html` with navigation
-- One HTML page **per city** (e.g., `weather_small_city_rosenheim.html`)
-
-> Note: This is a plain Java project (no Maven/Gradle).  
-> Package name used: `jeel.weather`.
+Generates a small **static website** (HTML) from Java OOP models:
+- `Small_Cities`, `Big_Cities` (inheritance from `Abstract_Cities`)
+- `Website_Generator` builds `index.html` + per-city pages
 
 ---
 
